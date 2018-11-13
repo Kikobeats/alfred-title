@@ -1,31 +1,24 @@
 {
   "name": "alfred-title",
-  "version": "0.0.0",
   "description": "Capitalize your title based on The Chicago Manual of Style guide.",
-  "license": "MIT",
-  "repository": "Kikobeats/alfred-title",
+  "homepage": "https://github.com/Kikobeats/alfred-title#readme",
+  "version": "1.0.0",
   "author": {
-    "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats/alfred-title"
   },
-  "engines": {
-    "node": ">=4"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kikobeats/alfred-title.git"
   },
-  "scripts": {
-    "test": "standard && ava",
-    "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+  "bugs": {
+    "url": "https://github.com/Kikobeats/alfred-title/issues"
   },
-  "files": [
-    "index.js",
-    "icon.png",
-    "info.plist"
-  ],
   "keywords": [
     "alfred",
-    "workflow",
-    "alfy"
+    "alfy",
+    "workflow"
   ],
   "dependencies": {
     "alfy": "^0.6.0",
@@ -35,5 +28,19 @@
     "alfy-test": "latest",
     "ava": "latest",
     "standard": "latest"
-  }
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "icon.png",
+    "index.js",
+    "info.plist"
+  ],
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup",
+    "test": "standard && ava"
+  },
+  "license": "MIT"
 }
