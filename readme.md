@@ -14,7 +14,7 @@ $ npm install --global alfred-title
 
 ## Usage
 
-In Alfred, type `title`, <kbd>Enter</kbd>, and your title.
+In Alfred, type `t`, <kbd>Enter</kbd>, and your title.
 
 ## Related
 
