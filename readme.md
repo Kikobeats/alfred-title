@@ -2,7 +2,7 @@
 
 > Capitalize your title based on The Chicago Manual of Style guide.
 
-![](demo.png)
+![](demo.gif)
 
 ## Install
 
