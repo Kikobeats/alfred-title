@@ -18,6 +18,7 @@ In Alfred, type `t`, <kbd>Enter</kbd>, and your title.
 
 ## Related
 
+- [titlecase](https://github.com/wezm/titlecase) – A tool and Rust crate for making text title case.
 - [title](https://github.com/zeit/title) – Capitalize your titles properly.
 - [alfred-simple-dark](https://github.com/Kikobeats/alfred-simple-dark) – Simple Dark theme for Alfred.
 
